@@ -122,6 +122,13 @@ body {
     color: #ffffff;
 }
 
+.secao-jogos {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    border-top: 2px solid #1a1a1a;
+}
+
 .rodape {
     background-color: #1a1a1a;
     color: #fff;
