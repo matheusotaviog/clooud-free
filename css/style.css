@@ -129,6 +129,110 @@ body {
     border-top: 2px solid #1a1a1a;
 }
 
+.secao-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 40px;
+    background-color: #1a1a1a;
+}
+
+.secao-contato h2 {
+    text-align: center;
+    font-size: 3rem; 
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.secao-contato p {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formulario-contato {
+    background-color: #F5F0E8;
+    padding: 50px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 650px;
+    border: 2px solid #555;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.linha-formulario {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.formulario-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.formulario-input label {
+    font-size: 11px;
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.formulario-input input,
+.formulario-input textarea {
+    background-color: #F5F0E8;
+    border: none;
+    border-bottom: 3px solid #1a1a1a;
+    padding: 5px 0 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #6a7485;
+    font-family: inherit;
+    outline: none;
+}
+
+.formulario-input input::placeholder,
+.formulario-input textarea::placeholder {
+    color: #8c96a6;
+}
+
+.formulario-input textarea {
+    resize: vertical;
+    min-height: 50px;
+}
+
+.btn-enviar {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #333;
+}
+
 .rodape {
     background-color: #1a1a1a;
     color: #fff;
