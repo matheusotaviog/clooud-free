@@ -110,6 +110,7 @@ body {
     border: 3px solid #1a1a1a;
     box-shadow: 6px 6px 0px #1a1a1a;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-amarelo {
