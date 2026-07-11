@@ -1,5 +1,7 @@
 
 document.addEventListener('DOMContentLoaded',() => {
+
+    /* ========== CONSUMO API JOGOS ========== */
     const gridJogos = document.getElementById('grid-jogos');
     const URL_API = 'https://www.freetogame.com/api/games?sort-by=release-date';
 
@@ -43,4 +45,14 @@ document.addEventListener('DOMContentLoaded',() => {
     }
 
     carregarJogos();
+
+    /* ========== FORMULARIO ========== */
+    const formulario = document.getElementById('formulario');
+
+    formulario.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        alert('Obrigado por entrar em contato! Em breve retornaremos sua mensagem.');
+        window.location.reload();
+    })
 })
