@@ -1,0 +1,23 @@
+:root {
+    
+    /* Cores de Destaque */
+    --cor-vermelho: #e74c3c;
+    --cor-azul: #0051ff;
+    --cor-amarelo: #ffd700;
+    --cor-amarelo-hover: #f1cb00;
+
+    /* Cores de Fundo e Bases */
+    --cor-fundo: #F5F0E8;
+    --cor-branco: #ffffff;
+    
+    /* Tons Escuros */
+    --cor-primaria-escura: #1a1a1a;
+    --cor-secundaria-escura: #222222;
+    --cor-cinza-medio: #555555;
+    --cor-cinza-claro: #cccccc;
+    
+    /* Cores de Formulário */
+    --cor-input-texto: #6a7485;
+    --cor-input-placeholder: #8c96a6;
+    --cor-btn-hover-escuro: #333333;
+}
